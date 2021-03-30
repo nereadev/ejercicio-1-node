@@ -6,4 +6,4 @@ const guardarSaludo = (nombre, () => {
   const saludo = (`hola${nombre}. Encantando de saludarte.`);
 });
 
-module.exports = guardarSaludo;
+module.exports = { guardarSaludo };
